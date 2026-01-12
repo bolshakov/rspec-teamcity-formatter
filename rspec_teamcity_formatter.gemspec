@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.description = "Allows RSpec to output test results in TeamCity service message format"
   s.authors     = ["Tema Bolshakov", "Roman Chernyatchik"]
   s.email       = "tema@bolshakov.dev"
-  s.files       = ["lib/"]
+  s.files       = Dir.glob("lib/**/*") + %w[LICENSE.txt README.md]
   s.homepage    = "https://rubygems.org/gems/rspec-teamcity-formatter"
   s.license     = "Apache 2.0"
 end
