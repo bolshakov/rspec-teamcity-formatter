@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rspec-teamcity-formatter (0.0.0)
+    rspec-teamcity-formatter (0.0.1)
 
 GEM
   remote: https://rubygems.org/
